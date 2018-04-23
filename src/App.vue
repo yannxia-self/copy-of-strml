@@ -23,19 +23,22 @@
         enableHtml: false,
         fullStyle: [
           `/*
-* Inspired by http://strml.net/
-* 大家好，我是方方
-* 二月了，好多公司都在招聘，你是不是也在准备简历呀。
-* 说做就做，我也来写一份简历！
+* Inspired by http://strml.net
+* 大家好，我是互联网IT猎头小霸王 Ellen
+* 敲一则研发职位招聘启事
 */
 
-/* 首先给所有元素加上过渡效果 */
+/* 作为互联网公司（100offer）的猎头顾问
+* 是时候展现一下我司人力的研发实力了
+*/
+
+*首先给所有元素加上过渡效果 */
 * {
   transition: all .3s;
 }
-/* 白色背景太单调了，我们来点背景 */
+/* 白色背景太单调了，我们来点100offer的logo标志色 */
 html {
-  color: rgb(222,222,222); background: rgb(0,43,54);
+  color: rgb(24,24,48); background: rgb(24,192,168);
 }
 /* 文字离边框太近了 */
 .styleEditor {
@@ -45,13 +48,13 @@ html {
   overflow: auto;
   width: 45vw; height: 90vh;
 }
-/* 代码高亮 */
+/* 来个代码高亮更专业 */
 .token.selector{ color: rgb(133,153,0); }
 .token.property{ color: rgb(187,137,0); }
 .token.punctuation{ color: yellow; }
 .token.function{ color: rgb(42,161,152); }
 
-/* 加点 3D 效果呗 */
+/* 100offer 3D 性能优秀，咱们也加点 3D 效果呗 */
 html{
   perspective: 1000px;
 }
@@ -63,7 +66,7 @@ html{
           transform: rotateY(10deg) translateZ(-100px) ;
 }
 
-/* 接下来我给自己准备一个编辑器 */
+/* 100offer 的IDE是灰常好用的，也来一个编辑器（这句可以不要，不知道怎么修改） */
 .resumeEditor{
   position: fixed; right: 0; top: 0;
   padding: .5em;  margin: .5em;
@@ -72,8 +75,7 @@ html{
   background: white; color: #222;
   overflow: auto;
 }
-/* 好了，我开始写简历了 */
-
+/* 好了，迫不及待了吧？我开始PO职位了 */
 
 `,
           `
@@ -115,35 +117,23 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
-----
+        fullMarkdown: `囊括各大知名一线互联网企业的各种技术类职位：
 
-资深前端工程师，资深前端讲师，现在在 [饥人谷](http://jirengu.com) 教前端课程。
+- 前端开发工程师
+- 广告算法/推荐算法
+- 工程后端（java/python/golang）
+- 移动端开发（ios、android）
+- 数据平台/数据架构
 
-技能
-----
+JD可以找我要。
 
-* 前端开发
-* Rails 开发
-* Node.js 开发
-* 前端授课
+办公地点： 北京/上海/杭州
 
-工作经历
-----
+招聘面试请联系 ellen.xia
 
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
-
-链接
-----
-
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
-
-> 如果你喜欢这个效果，Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
-
+* 电话：18817961706
+* 微信：xiadanlun123
+* 邮箱：ellen.xia@100offer.com
 `
       }
     },
