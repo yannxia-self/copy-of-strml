@@ -66,7 +66,7 @@ html{
           transform: rotateY(10deg) translateZ(-100px) ;
 }
 
-/* 100offer 的IDE是灰常好用的，也来一个编辑器（这句可以不要，不知道怎么修改） */
+/* 100offer 的IDE是灰常好用的，也来一个编辑器 */
 .resumeEditor{
   position: fixed; right: 0; top: 0;
   padding: .5em;  margin: .5em;
